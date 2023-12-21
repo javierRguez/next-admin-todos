@@ -1,6 +1,10 @@
+export const dynamic = "force-dynamic";
+// 'auto' | 'force-dynamic' | 'error' | 'force-static'
+export const revalidate = 0;
+// false | 'force-cache' | 0 | number
+
 import prisma from "@/lib/prisma";
 import { NewTodo, TodosGrid } from "@/todos";
-import * as todosApi from "@/todos/helpers/todos";
 
 export const metadata = {
   title: "Listado de Todos",
