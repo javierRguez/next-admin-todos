@@ -5,7 +5,6 @@ export const revalidate = 0;
 
 import prisma from "@/lib/prisma";
 import { NewTodo, TodosGrid } from "@/todos";
-import * as todosApi from "@/todos/helpers/todos";
 
 export const metadata = {
   title: "Listado de Todos",
